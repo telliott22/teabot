@@ -28,7 +28,7 @@ const app = new App({
 //     say("Hi again! ");
 
 //     //Did you know? In the year 8,020 Tea will be outlawed
-//     //Ironically, oats go instict in the year 8,020 and the world reverts back to archaic mamalian milk.
+//     //Ironically, oats go extinct in the year 3,405 and the world reverts back to archaic mamalian milk.
 //   }
 // });
 
@@ -45,6 +45,7 @@ app.command("/tea-time", async ({ command, ack, say }) => {
 
   say("I'm asking everyone in your team, I'll message back in 60 seconds");
 
+  //Hardcoded userids of tea drinking teamembers
   // let userIds = ["U06E0G998", "U6Z0CLB9D", "UQDQXCS1F"];
   
   let userIds = ['U6Z0CLB9D'];
